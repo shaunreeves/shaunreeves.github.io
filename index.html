@@ -1,408 +1,545 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
-		<title>ShaunReeves.co.uk</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/mystyle.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ShaunReeves.co.uk</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Shaun Reeves Portfolio Website" />
+	<meta name="keywords" content="webdev, web development, game development, programming, mobile apps, mobile games, univeristy" />
+	<meta name="author" content="FreeHTML5.co" />
+
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Style -->
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	<!--font awesome-->
+	<script src="https://kit.fontawesome.com/96444fb2b5.js" crossorigin="anonymous"></script>
+
 	</head>
-	<body>
+	<body> <!--this menu system need finding and editing -->
+	<header role="banner" id="fh5co-header">
+		<div class="fluid-container">
+			<!-- The video -->
+			<!--<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+			<source src="images/retroBGlg.mp4" type="video/mp4">
+			</video>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+			<video autoplay muted loop id="myVideo">
+  			<source src="images/retroBGlg.mp4" type="video/mp4">
+			</video>-->
+			<!-- The video END -->
+			<nav class="navbar navbar-default navbar-fixed-top js-fullheight">
+				<div id="navbar" class="navbar-collapse js-fullheight">
+					<ul class="nav navbar-nav navbar-left">
+						<li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+						<li><a href="#" data-nav-section="services"><span>Services</span></a></li>
+						<li><a href="#" data-nav-section="explore"><span>Project</span></a></li>
+						<li><a href="#" data-nav-section="pricing"><span>Pricing</span></a></li>
+						<li><a href="#" data-nav-section="team"><span>Team</span></a></li>
+					</ul>
+				</div>
+			</nav>
+	  </div>
+	</header>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-id-badge"></span>
-							<!--<span><img src="images/profilePic.png" width="90%"></span>-->
-							<!--<span class="icon fa-user"></span>-->
+	<!--<section id="fh5co-home" data-section="home" style="background-image: url(images/bgRetro.jpg);" data-stellar-background-ratio="0.5">-->
+	<section id="fh5co-home" data-section="home" data-stellar-background-ratio="0.5">
+
+		<!--video header-->
+		<video width="100" height="100" autoplay muted loop id="myVideo">
+			<source src="images/retroBGlg.mp4" type="video/mp4">
+		</video>
+		<!--video header END-->
+		<div class="gradient"></div>
+		<div class="container">
+
+			<div class="text-wrap">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<i class="to-animate fas fa-gamepad fa-3x"></i>
+							<h1 class="to-animate">SHAUN REEVES</h1>
+							<h2 class="to-animate">GAMES | WEB | EDUCATION | RESEARCH</h2>
+							<!--social media-->
+							<a href="https://www.linkedin.com/in/shaun-reeves/" target="_blank"><i class="to-animate fab fa-linkedin-in"></i></a>
+							&nbsp
+							<a href="http://www.twitter.com/shaunreeves"        target="_blank"><i class="to-animate fab fa-twitter"></i></a>
+							&nbsp
+							<a href="https://github.com/shaunreeves"            target="_blank"><i class="to-animate fab fa-github"></i></a>
+							&nbsp
+							<a href="https://www.facebook.com/shaunreevesedu"   target="_blank"><i class="to-animate fab fa-facebook"></i></a>
+							&nbsp
+							<a href="http://youtube.com/user/shaunreeves1"      target="_blank"><i class="to-animate fab fa-youtube"></i></a>
+							<!--social media-->
 						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Shaun Reeves</h1>
-								<p>web | games | education | research<br /></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="fh5co-services" data-section="services">
+		<div class="fh5co-services">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 section-heading text-center">
+						<h2 class="to-animate">Intro</h2>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 subtext">
+								<!--<h3 class="to-animate">Intro</h3>-->
 							</div>
 						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<!--<li><a href="#contact">Contact</a></li>-->
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-
-					</header>
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/shaun-reeves/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="http://www.twitter.com/shaunreeves" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://github.com/shaunreeves" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-									<li><a href="http://youtube.com/user/shaunreeves1" class="icon fa-youtube" target="_blank"><span class="label">YouTube</span></a></li>
-									<li><a href="https://www.facebook.com/shaunreevesedu" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-								</ul>
-
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="main"><img src="images/pic01.png" alt="" width="100%"/></span>
-								<p class="text"><b>Qualifications and Certifications</b> PhD Student in Believable Artificial Intelligence, Masters of Research in Computer Science (MRes), Post Graduate Certificate in Education (PGCE), BSc Multimedia Technology, Certified Apple Teacher.
-<br>
-								<br><b>Lecturer in Computer Games Programming</b> at <a href="http://www.staffs.ac.uk/course/computer-games-programming-bsc" target="_blank">Staffordshire University.</a>
-<br>
-								<br><b>Award Leader for BSc Computer Games Development</b> at <a href="https://www.staffs.ac.uk/course/computer-games-development-bsc" target="_blank">Staffordshire University.</a>
-<br>
-								<br><b>Researcher in Computer Science</b> specialising in Computer Games, Artificial Intelligence, Education and Cloud Computing.
-<br>
-								<br><b>Recent papers:</b> "UX and UI Analysis", "Education, Cloud Computing and Mobile Technology; a current success or a future vision?", <br>"Cloud Computing Implementation Strategies for Academic Institutions".
-<br>
-								<br><b>Media Developer</b> from code to creative cloud, web sites to web apps, photography to Photoshop, Dungeons and Dragons to video games.
-								<!--<br><br>-->
-								</p>
-								<img src="images/AppleTeacher_black.png" alt="Certified Apple Teacher" width="30%"/>
-							</article>
-
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/djames.jpg" width="100%"></span>
-								<p><a href="http://www.duncanjames.co.uk" target="_blank"><h2>Duncan James of Walsall</h2></a></p>
-								<p><b>Web Development &amp; Digital Advisor</b></p>
-								<p>Gentleman's fashion for formal hire and purchase. A local tailors with big ambition. Tweed clad and stylish for all occasions. The site includes various styles of suites and shoes, an interactive calendar to promote special events and a Google Business View shop walk through.</p>
-							<hr>
-								<span class="image main"><iframe width="100%" height="315" src="https://www.youtube.com/embed/1m4illUhcAI" frameborder="0" allowfullscreen></iframe></span>
-								<p><h2>#ProSocialMedia Micro Talk</h2></a></p>
-								<p><b>Conference Talk - "#ProSocialMedia"</b></p>
-								<p>An invite to talk at Staffordshire Univeristy for the monthly PhD micro conference. This session was a micro talk on my bigger talk regarding professional uses of social media. April 2018.</p>
-							<hr>
-								<span class="image main"><img src="images/proSocialMedia.jpg" width="100%"></span>
-								<p><a href="https://shaunreeves.github.io/ProSocialMedia/" target="_blank"><h2>#ProSocialMedia Resources</h2></a></p>
-								<p><b>Social Media &amp; Web Development</b></p>
-								<p>Here you will find the resources from the #ProSocialMedia talks I have done. You can download the PDF slides for your own use. If you would like the editable PowerPoint slides please get in touch.</p>
-							<hr>
-								<span class="image main"><iframe width="100%" height="315" src="https://www.youtube.com/embed/lShhSWjVB6I" frameborder="0" allowfullscreen></iframe></span>
-								<p><h2>ICE Google Edu Talk</h2></p>
-								<p><b>Conference Talk - "Collaboration"</b></p>
-								<p>A conference talk to discuss the importance of collaboration. An insight into the tools used including Google Apps for Education, GitHub, VS Code and more. We also discuss how being collaborative on social media can improve employability too. November 2017.</p>
-
-								<!--sample work post - just fill in the gaps-->
-									<!--<span class="image main"><img src="images/IMAGE" width="100%"></span>
-									<p><a href="URL" target="_blank"><h2>TITLE</h2></a></p>
-									<p><b>CATEGORY</b></p>
-									<p>DESCRIPTION</p>-->
-								<!--END-->
-							</article>
-
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="main"><img src="images/profile.png" alt="" width="100%"/></span>
-								<p class="text">Hi, I'm Shaun, I am a <a href="http://www.staffs.ac.uk/course/computer-games-programming-bsc" target="_blank">Lecturer in Computer Games Programming</a> and <a href="https://www.staffs.ac.uk/course/computer-games-development-bsc" target="_blank">Award Leader for BSc (Hons) Computer Games Development</a> at Staffordshire University.</a> I am also an educational technology advocate, highly motivated about research in <b>believable artificial intelligence</b> and <b>educational games</b>. Get in touch to collaborate!</p>
-
-								<p class="text"><a href="https://www.linkedin.com/in/shaun-reeves/" target="_blank">LinkedIn</a> // <!--<a href="https://plus.google.com/u/0/+ShaunReevesedu" target="_blank">Google+</a> //--> <a href="http://www.twitter.com/shaunreeves" target="_blank">Twitter</a></p>
-							</article>
-
-						<!-- Contact
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="field half first">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="special" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="http//:www.twitter.com/shaunreeves" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://plus.google.com/u/0/+ShaunReevesedu" target="_blank" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-									<li><a href="https://www.linkedin.com/in/shaun-reeves/" class="icon fa-linkedin"><span class="label" target="_blank">LinkedIn</span></a></li>
-									<li><a href="https://github.com/shaunreeves" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>-->
-
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button special">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions vertical">
-										<li><a href="#" class="button special">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button special">Special</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button special icon fa-download">Icon</a></li>
-										<li><a href="#" class="button icon fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button special disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="field half first">
-											<label for="demo-name">Name</label>
-											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-										</div>
-										<div class="field half">
-											<label for="demo-email">Email</label>
-											<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-										</div>
-										<div class="field">
-											<label for="demo-category">Category</label>
-											<div class="select-wrapper">
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="core-features">
+						<div class="grid2 to-animate" style="background-image: url(images/full_image_2.jpg);">
+						</div>
+						<div class="grid2">
+							<div class="core-f">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="core">
+											<i class="fas fa-graduation-cap to-animate-2"></i>
+											<div class="fh5co-post to-animate">
+												<h3>Knowledge</h3>
+												<ul>
+												</ul>
+												<p>- PhD Student in Believable Artificial Intelligence, <br>- Masters of Research in Computer Science (MRes), <br>- Post Graduate Certificate in Education (PGCE), <br>- BSc Multimedia Technology, <br>- Certified Apple Teacher.</p>
 											</div>
 										</div>
-										<div class="field half first">
-											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-											<label for="demo-priority-low">Low</label>
+										<div class="core">
+											<i class="fas fa-glasses to-animate-2"></i>
+											<div class="fh5co-post to-animate">
+												<h3>Career</h3>
+												<p>Lecturer in Computer Games Programming</b> at <br> <a href="http://www.staffs.ac.uk/course/computer-games-programming-bsc" target="_blank">Staffordshire University.</a></p>
+											</div>
 										</div>
-										<div class="field half">
-											<input type="radio" id="demo-priority-high" name="demo-priority">
-											<label for="demo-priority-high">High</label>
+										<div class="core">
+											<i class="fas fa-gamepad to-animate-2"></i>
+											<div class="fh5co-post to-animate">
+												<h3>Responsibilities</h3>
+												<p>Award Leader for BSc (Hons) Computer Games Development at <a href="https://www.staffs.ac.uk/course/computer-games-development-bsc" target="_blank">Staffordshire University.</a></p>
+											</div>
 										</div>
-										<div class="field half first">
-											<input type="checkbox" id="demo-copy" name="demo-copy">
-											<label for="demo-copy">Email me a copy</label>
+										<div class="core">
+											<i class="fas fa-dice-d20 to-animate-2"></i>
+											<div class="fh5co-post to-animate">
+												<h3>Skills</h3>
+												<p>From code to creative cloud, web sites to web apps, photography to Photoshop, Dungeons and Dragons to video games.</p>
+											</div>
 										</div>
-										<div class="field half">
-											<input type="checkbox" id="demo-human" name="demo-human" checked>
-											<label for="demo-human">Not a robot</label>
-										</div>
-										<div class="field">
-											<label for="demo-message">Message</label>
-											<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="special" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
+				</div>
+				<div id="fh5co-counter-section" class="fh5co-counters">
+					<div class="container">
+						<div class="row to-animate">
+							<div class="col-md-3 text-center">
+								<span class="fh5co-counter js-counter" data-from="0" data-to="12" data-speed="4000" data-refresh-interval="50"></span>
+								<span class="fh5co-counter-label">Years Lecturing</span>
+							</div>
+							<div class="col-md-3 text-center">
+								<span class="fh5co-counter js-counter" data-from="0" data-to="264" data-speed="5000" data-refresh-interval="50"></span>
+								<span class="fh5co-counter-label">Students Graduated</span>
+							</div>
+							<div class="col-md-3 text-center">
+								<span class="fh5co-counter js-counter" data-from="0" data-to="141" data-speed="5000" data-refresh-interval="50"></span>
+								<span class="fh5co-counter-label">Web Projects</span>
+							</div>
+							<div class="col-md-3 text-center">
+								<span class="fh5co-counter js-counter" data-from="0" data-to="34" data-speed="5000" data-refresh-interval="50"></span>
+								<span class="fh5co-counter-label">Game Projects</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; ShaunReeves.co.uk 2019</p>
-					</footer>
+	<!--<section id="fh5co-explore" data-section="explore">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Project Done</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fh5co-project">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="project-grid to-animate-2" style="background-image:  url(images/project-1.jpg);">
+							<div class="desc">
+								<h3><a href="#">MasCom Template</a></h3>
+								<span>By: Louie D' Great</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center">
+						<div class="project-grid to-animate-2" style="background-image:  url(images/project-2.jpg);">
+							<div class="desc">
+								<h3><a href="#">Long Tower</a></h3>
+								<span>By: John Doe</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center">
+						<div class="project-grid to-animate-2" style="background-image:  url(images/project-3.jpg);">
+							<div class="desc">
+								<h3><a href="#">Flash Theme</a></h3>
+								<span>By: Thomas Jones</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center">
+						<div class="project-grid to-animate-2" style="background-image:  url(images/project-4.jpg);">
+							<div class="desc">
+								<h3><a href="#">Tattoo</a></h3>
+								<span>By: Louie D' Great</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center">
+						<div class="project-grid to-animate-2" style="background-image:  url(images/project-5.jpg);">
+							<div class="desc">
+								<h3><a href="#">Train Theme</a></h3>
+								<span>By: Ivan Kim</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center">
+						<div class="project-grid to-animate-2" style="background-image:  url(images/project-6.jpg);">
+							<div class="desc">
+								<h3><a href="#">Dance Theme</a></h3>
+								<span>By: FreeHTML5.co</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>-->
+
+	<section id="fh5co-pricing" data-section="pricing">
+		<div class="fh5co-pricing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 section-heading text-center">
+						<h2 class="to-animate">Portfolio</h2>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 subtext">
+								<h3 class="to-animate">Web Design | Game Development | Research | Conference Talks</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<div class="price-box to-animate">
+							<h2 class="pricing-plan">Duncan James</h2>
+							<a href="http://duncanjames.co.uk" target="_blank"><img class="portImg" src="images/portDJames.jpg"/></a>
+							<!--<div class="price"><sup class="currency">$</sup>7<small>/mo</small></div>-->
+							<p>Gentlman's tailoring for sir whom demands quality.</p>
+							<hr>
+							<ul class="pricing-info">
+								<li>Web Dev</li>
+								<!--<li>Wordpress</li>-->
+								<li>Marketing</li>
+								<li>Graphic Design</li>
+							</ul>
+							<!--<p><a href="#" class="btn btn-primary">Read More</a></p>-->
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="price-box to-animate">
+							<h2 class="pricing-plan">Pro Social Media</h2>
+							<a href="https://youtu.be/1m4illUhcAI" target="_blank"><img class="portImg" src="images/portProSocial.jpg"/></a>
+							<!--<div class="price"><sup class="currency">$</sup>19<small>/mo</small></div>-->
+							<p>Vital career guidance for the games industry, how not to slip up.</p>
+							<hr>
+							<ul class="pricing-info">
+								<li>Pro Social Media</li>
+								<li>Portfolio Dev</li>
+								<li>CV Creation</li>
+							</ul>
+							<!--<p><a href="#" class="btn btn-primary">Read More</a></p>-->
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="price-box to-animate">
+							<h2 class="pricing-plan">Google Conference</h2>
+							<a href="https://youtu.be/lShhSWjVB6I" target="_blank"><img class="portImg" src="images/portGoogleColab.jpg"/></a>
+							<!--<div class="price"><sup class="currency">$</sup>19<small>/mo</small></div>-->
+							<p>"Collaboration". The technological art of collaborating.</p>
+							<hr>
+							<ul class="pricing-info">
+								<li>Google Apps for Edu</li>
+								<li>GitHub</li>
+								<li>Cloud Computing</li>
+							</ul>
+							<!--<p><a href="#" class="btn btn-primary">Read More</a></p>-->
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="price-box to-animate">
+							<h2 class="pricing-plan">Award Marketing</h2>
+							<img class="portImg" src="images/portWallpaper.jpg"/>
+							<!--<div class="price"><sup class="currency">$</sup>19<small>/mo</small></div>-->
+							<p>Bespoke Retro Wave <a href="images/gamesDevWallpaper.jpg" download="gamesDevWallpaper.jpg" title="Games Development Wallpaper">Games Development</a> and <a href="images/gamesProgWallpaper.jpg" download="gamesProgWallpaper.jpg" title="Games Programming Wallpaper">Games Programming wallpaper.</a></p>
+							<hr>
+							<ul class="pricing-info">
+								<li>Graphic Design</li>
+								<li>Photoshop</li>
+								<li>Marketing</li>
+							</ul>
+							<!--<p><a href="#" class="btn btn-primary">Read More</a></p>-->
+						</div>
+					</div>
+					<!--<div class="clearfix visible-sm-block"></div>
+					<div class="col-md-3 col-sm-6 to-animate">
+						<div class="price-box popular">
+							<div class="popular-text">Best value</div>
+							<h2 class="pricing-plan">Plus</h2>
+							<div class="price"><sup class="currency">$</sup>79<small>/mo</small></div>
+							<p>Basic customer support for small business</p>
+							<hr>
+							<ul class="pricing-info">
+								<li>Unlimitted projects</li>
+								<li>100 Pages</li>
+								<li>100 Emails</li>
+								<li>700 Images</li>
+							</ul>
+							<p><a href="#" class="btn btn-primary">Read More</a></p>
+						</div>
+					</div>-->
+					<!--<div class="col-md-3 col-sm-6">
+						<div class="price-box to-animate">
+							<h2 class="pricing-plan">Enterprise</h2>
+							<div class="price"><sup class="currency">$</sup>125<small>/mo</small></div>
+							<p>Basic customer support for small business</p>
+							<hr>
+							<ul class="pricing-info">
+								<li>Unlimitted projects</li>
+								<li>Unlimitted Pages</li>
+								<li>Unlimitted Emails</li>
+								<li>Unlimitted Images</li>
+							</ul>
+							<p><a href="#" class="btn btn-primary">Read More</a></p>
+						</div>
+					</div>-->
+				</div>
+
+				<!--<div class="row">
+					<div class="col-md-6 col-md-offset-3 col-md-push-3 to-animate">
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					</div>
+				</div>-->
 
 			</div>
+		</div>
+	</section>
 
-		<!-- BG -->
-			<div id="bg"></div>
+	<section id="fh5co-team" data-section="team">
+		<div class="fh5co-team">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 section-heading text-center">
+						<h2 class="to-animate">About</h2>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 subtext">
+								<h3 class="to-animate">"Everything's impossible until someone does it" - Batman</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!--<div class="col-md-4">
+						<div class="team-box text-center to-animate-2">
+							<div class="user"><img class="img-reponsive" src="images/user-1.jpg" alt="Roger Garfield"></div>
+							<h3>Roger Garfield</h3>
+							<span class="position">Co-Founder, Lead Developer</span>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							<ul class="social-media">
+								<li><a href="#" class="facebook"><i class="icon-facebook"></i></a></li>
+								<li><a href="#" class="twitter"><i class="icon-twitter"></i></a></li>
+								<li><a href="#" class="dribbble"><i class="icon-dribbble"></i></a></li>
+								<li><a href="#" class="codepen"><i class="icon-codepen"></i></a></li>
+								<li><a href="#" class="github"><i class="icon-github-alt"></i></a></li>
+							</ul>
+						</div>
+					</div>-->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+					<div class="col-md-3"></div>
+
+					<div class="col-md-6">
+						<div class="team-box text-center to-animate-2">
+							<div class="user"><img class="img-reponsive" src="images/srProfile.jpg" alt="Shaun Reeves"></div>
+							<h3>Shaun Reeves</h3>
+							<span class="position">MRes, PGCE, BSc<br></span>
+							<p><!--Computer Games Programming Lecturer<br>
+								BSc (Hons) Computer Games Development Award Leader<br>-->
+							Hi, I'm Shaun, I am a <a href="http://www.staffs.ac.uk/course/computer-games-programming-bsc" target="_blank">Lecturer in Computer Games Programming</a> and Award Leader for <a href="https://www.staffs.ac.uk/course/computer-games-development-bsc" target="_blank">BSc (Hons) Computer Games Development</a> at Staffordshire University.</a> I am also an educational technology advocate, highly motivated about research in <b>believable artificial intelligence</b> and <b>serious games</b>. <br>Get in touch to collaborate!</p>
+							<ul class="social-media">
+								<li><a href="https://www.linkedin.com/in/shaun-reeves/" target="_blank" class="linkedin"><i class="icon-linkedin"></i></a></li>
+								<li><a href="http://www.twitter.com/shaunreeves" target="_blank" class="twitter"><i class="icon-twitter"></i></a></li>
+								<li><a href="https://github.com/shaunreeves" target="_blank" class="github"><i class="icon-github"></i></a></li>
+								<li><a href="https://www.facebook.com/shaunreevesedu" target="_blank" class="facebook"><i class="icon-facebook"></i></a></li>
+								<li><a href="http://youtube.com/user/shaunreeves1" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3"></div>
+
+					<!--<div class="col-md-4">
+						<div class="team-box text-center to-animate-2">
+							<div class="user"><img class="img-reponsive" src="images/user-3.jpg" alt="Roger Garfield"></div>
+							<h3>Ross Standford</h3>
+							<span class="position">Full Stack Developer</span>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							<ul class="social-media">
+								<li><a href="#" class="facebook"><i class="icon-facebook"></i></a></li>
+								<li><a href="#" class="twitter"><i class="icon-twitter"></i></a></li>
+								<li><a href="#" class="dribbble"><i class="icon-dribbble"></i></a></li>
+								<li><a href="#" class="codepen"><i class="icon-codepen"></i></a></li>
+								<li><a href="#" class="github"><i class="icon-github-alt"></i></a></li>
+							</ul>
+						</div>
+					</div>-->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="getting-started getting-started-1">
+		<div class="getting-grid" style="background-image:  url(images/full_image_1.jpg);">
+			<div class="desc text-center">
+				<h2>Get In Touch</h2>
+				<p>I am always keen to hear about new projects, meet inspiring people and collaborate on the next idea.</p>
+				<p><a href="https://www.linkedin.com/in/shaun-reeves/" target="_blank" class="btn btn-primary">Message me on LinkedIn</a></p>
+			</div>
+		</div>
+	</div>
+
+<!--footer
+	<div id="fh5co-footer" role="contentinfo">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 to-animate">
+					<h3 class="section-title">About Us</h3>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+					<p class="copy-right">&copy; 2015 Twist Free Template. <br>All Rights Reserved. <br>
+						Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>
+						Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a>
+					</p>
+				</div>
+
+				<div class="col-md-4 to-animate">
+					<h3 class="section-title">Our Address</h3>
+					<ul class="contact-info">
+						<li><i class="icon-map-marker"></i>198 West 21th Street, Suite 721 New York NY 10016</li>
+						<li><i class="icon-phone"></i>+ 1235 2355 98</li>
+						<li><i class="icon-envelope"></i><a href="#">info@yoursite.com</a></li>
+						<li><i class="icon-globe2"></i><a href="#">www.yoursite.com</a></li>
+					</ul>
+					<h3 class="section-title">Connect with Us</h3>
+					<ul class="social-media">
+						<li><a href="#" class="facebook"><i class="icon-facebook"></i></a></li>
+						<li><a href="#" class="twitter"><i class="icon-twitter"></i></a></li>
+						<li><a href="#" class="dribbble"><i class="icon-dribbble"></i></a></li>
+						<li><a href="#" class="github"><i class="icon-github-alt"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 to-animate">
+					<h3 class="section-title">Drop us a line</h3>
+					<form class="contact-form">
+						<div class="form-group">
+							<label for="name" class="sr-only">Name</label>
+							<input type="name" class="form-control" id="name" placeholder="Name">
+						</div>
+						<div class="form-group">
+							<label for="email" class="sr-only">Email</label>
+							<input type="email" class="form-control" id="email" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<label for="message" class="sr-only">Message</label>
+							<textarea class="form-control" id="message" rows="7" placeholder="Message"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" id="btn-submit" class="btn btn-send-message btn-md" value="Send Message">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>-->
+	<!-- <div id="map" class="fh5co-map"></div> -->
+
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
 
 	</body>
 </html>
